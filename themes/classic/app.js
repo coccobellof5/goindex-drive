@@ -41,7 +41,7 @@ function nav(path) {
 // List File
 function list(path) {
     var content = `
-<tr><th class="file-name">Name</th><th class="file-size">Size</th><th class="file-date-modified">Date Modified</th></tr>
+<tr><th class="file-name">Nome</th><th class="file-size">Grandezza</th><th class="file-date-modified">Ultima Modifica</th></tr>
 	`;
 
     if (path != '/') {
